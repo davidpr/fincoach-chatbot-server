@@ -4,13 +4,16 @@ This is a fastAPI server calling a LLamaIndex chatbot
 ## Getting started
 
 ```
-cd 
+python3 -m venv v-fincoach-fastapi-llamaindex
+source v-fincoach-fastapi-llamaindex/bin/activate
+pip install fastapi uvicorn[standard]
+(optional python-multipart, sqlalquemy jina2)
 ```
 
-## Integrate with your tools
+## Using the server
 
-- [ ] [Set up project integrations](https://gitlab.com/fincoach/fincoach-chatbot-server/-/settings/integrations)
-- [ ] [Invite team members and collaborators](https://docs.gitlab.com/ee/user/project/members/)
+- [ ] uvicorn app:app --reload
+- [ ] uvicorn app:app --host 0.0.0.0 --port 8000 --reload
 
 
 ***
