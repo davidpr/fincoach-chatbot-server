@@ -5,6 +5,8 @@ from fastapi.middleware.cors import CORSMiddleware
 from starlette.middleware.httpsredirect import HTTPSRedirectMiddleware
 import uvicorn
 
+import logging
+
 ###LLAMAINDEX
 from llama_index import ServiceContext
 from llama_index import set_global_service_context
@@ -110,24 +112,38 @@ def inference(input_prompt):
     return response
 ##########################################################################
 ##############################FAST APIN###################################
-app = FastAPI()
-app.add_middleware(HTTPSRedirectMiddleware)
+app_prd = FastAPI()
+app_prd.add_middleware(HTTPSRedirectMiddleware)
 
-app.add_middleware(
+app_prd.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
     allow_methods=["*"],
     allow_headers=["*"],
 )
 
-@app.get("/chatbot")
+logger = logging.getLogger(__name__)
+logger.setLevel(logging.INFO)
+log_file = "output-rag.log"
+file_handler = logging.FileHandler(log_file)
+formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
+file_handler.setFormatter(formatter)
+logger.addHandler(file_handler)
+
+@app_prd.get("/chatbot")
 def call_chatbot(input_prompt: str):
     #response = llamaindex.chat(input_prompt)
+
     print("the input prompt was: ", str(input_prompt))
+    logger.info(str(input_prompt))
+
     print ('>------------------------')
     response  =  inference(input_prompt)
     print ('>------------------------')
+
     print (type(response))
     print ('>------------------------')
     print (response)
+    logger.info(response)
+
     return {"response": response.response}
