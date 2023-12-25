@@ -66,5 +66,5 @@ https://fastapi.tiangolo.com/deployment/server-workers/
 
 ## Make testing in the jupyter
 
-jupyter2023.
+
 
