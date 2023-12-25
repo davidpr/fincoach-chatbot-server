@@ -11,3 +11,4 @@ output-rag.log
 output-rag-v2.log
 output-all-rag-v2.txt
 fullchain3.pem
+default.sqlite
