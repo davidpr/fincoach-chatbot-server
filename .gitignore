@@ -3,3 +3,11 @@ sentences_2023_11_20_18_1_57_index/
 sentences_2023_12_02_index_all/
 warrenbuffet_2023_12_01_18_v1/
 __pycache__/
+.streamlit/
+chroma_db/
+privkey3.pem
+utils.py
+output-rag.log
+output-rag-v2.log
+output-all-rag-v2.txt
+fullchain3.pem

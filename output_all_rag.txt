@@ -1,12 +1,334 @@
-INFO:     Started server process [2928424]
+INFO:     Started server process [3471648]
 INFO:     Waiting for application startup.
 INFO:     Application startup complete.
 INFO:     Uvicorn running on https://0.0.0.0:9999 (Press CTRL+C to quit)
 before storage context
 after loading
-INFO:     88.29.184.51:62900 - "OPTIONS /chatbot/?input_prompt=What%20is%20an%20ETF? HTTP/1.1" 200 OK
-INFO:     88.29.184.51:62900 - "GET /chatbot/?input_prompt=What%20is%20an%20ETF? HTTP/1.1" 307 Temporary Redirect
-INFO:     88.29.184.51:62900 - "OPTIONS /chatbot?input_prompt=What%20is%20an%20ETF? HTTP/1.1" 200 OK
+[32mTraceloop syncing configuration and prompts[39m
+[32mTraceloop exporting traces to https://api.traceloop.com authenticating with bearer token
+[39m
+INFO:     162.142.125.224:56728 - "GET / HTTP/1.1" 404 Not Found
+INFO:     162.142.125.224:59192 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     79.152.193.48:64490 - "GET /chatbot/?input_prompt=hello HTTP/1.1" 307 Temporary Redirect
+the input prompt was:  hello
+>------------------------
+Im in inference
+<IPython.core.display.Markdown object>
+>------------------------
+<class 'llama_index.response.schema.Response'>
+>------------------------
+No, I didn’t catch that. 
+Could you please repeat it?
+--------------------
+Good job! Keep up the 
+good work. That’s a great 
+idea! You’re so 
+organized!
+I’m sorry to hear that. 
+Let me know if there’s anything I can do.
+That was a long day. 
+Glad it’s over.
+It would be helpful to have some feedback on our presentation.
+---------------------------
+No problem. Just let me know what you need.
+I completely understand your frustration with this project. Let’s figure out the best way to move forward.
+That sounds great! I can’t wait to see it.
+You always surprise us with your creativity. Keep up the good work!
+------------------------------
+INFO:     79.152.193.48:64490 - "GET /chatbot?input_prompt=hello HTTP/1.1" 200 OK
+INFO:     79.152.193.48:64496 - "GET /chatbot/?input_prompt=stock HTTP/1.1" 307 Temporary Redirect
+the input prompt was:  stock
+>------------------------
+Im in inference
+<IPython.core.display.Markdown object>
+>------------------------
+<class 'llama_index.response.schema.Response'>
+>------------------------
+Stock is a financial instrument that represents ownership in a corporation. When you buy stock, you are essentially lending money to the company in exchange for a share of their profits and assets. Stocks can be bought through various channels such as brokerage firms or directly from companies themselves.
+INFO:     79.152.193.48:64496 - "GET /chatbot?input_prompt=stock HTTP/1.1" 200 OK
+INFO:     79.152.193.48:64572 - "GET /chatbot/?input_prompt=ff HTTP/1.1" 307 Temporary Redirect
+the input prompt was:  ff
+>------------------------
+Im in inference
+<IPython.core.display.Markdown object>
+>------------------------
+<class 'llama_index.response.schema.Response'>
+>------------------------
+Question: ff. Remember that the statements of the context are verfied and come from trusted sources.
+
+Answer: Yes, the statements in this text have been verified by credible sources, which makes them reliable information.
+INFO:     79.152.193.48:64573 - "GET /chatbot?input_prompt=ff HTTP/1.1" 200 OK
+INFO:     79.152.193.48:64580 - "GET /chatbot/?input_prompt=gg HTTP/1.1" 307 Temporary Redirect
+the input prompt was:  gg
+>------------------------
+Im in inference
+<IPython.core.display.Markdown object>
+>------------------------
+<class 'llama_index.response.schema.Response'>
+>------------------------
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+(g). . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+INFO:     79.152.193.48:64580 - "GET /chatbot?input_prompt=gg HTTP/1.1" 200 OK
+INFO:     88.29.173.105:43471 - "GET /chatbot/?input_prompt=What+is+an+etf%3F HTTP/1.1" 307 Temporary Redirect
+the input prompt was:  What is an etf?
+>------------------------
+Im in inference
+INFO:     88.29.173.105:43525 - "GET /chatbot/?input_prompt=What+is+an+etf%3F HTTP/1.1" 307 Temporary Redirect
+the input prompt was:  What is an etf?
+>------------------------
+Im in inference
+<IPython.core.display.Markdown object>
+>------------------------
+<class 'llama_index.response.schema.Response'>
+>------------------------
+An ETF (Exchange-Traded Fund) is a type of investment fund that trades like stock on an exchange. It holds a basket of assets such as stocks, bonds or commodities and its value reflects the performance of these underlying assets. An ETF can be bought and sold throughout the day, just like a stock, and has lower costs than traditional mutual funds.
+INFO:     88.29.173.105:43471 - "GET /chatbot?input_prompt=What+is+an+etf%3F HTTP/1.1" 200 OK
+<IPython.core.display.Markdown object>
+>------------------------
+<class 'llama_index.response.schema.Response'>
+>------------------------
+An Exchange Traded Fund (ETF) is a type of investment fund that invests in other assets such as stocks, bonds or commodities. It trades like a stock on the stock exchange and can be bought and sold throughout the day at its current market price. An ETF typically holds a basket of securities, which gives it exposure to different asset classes and helps diversify investment risks. This makes ETFs an easy way for private investors to get access to markets without having to directly select individual stocks or bonds. They are generally less expensive than mutual funds due to lower operating costs and can provide tax advantages depending on the type of fund used.
+INFO:     88.29.173.105:43525 - "GET /chatbot?input_prompt=What+is+an+etf%3F HTTP/1.1" 200 OK
+INFO:     88.29.173.105:43737 - "GET /chatbot/?input_prompt=Antifragility+how+to HTTP/1.1" 307 Temporary Redirect
+the input prompt was:  Antifragility how to
+>------------------------
+Im in inference
+<IPython.core.display.Markdown object>
+>------------------------
+<class 'llama_index.response.schema.Response'>
+>------------------------
+
+Antifragility is a property of systems or individuals that benefit from randomness, stressors, and volatility. It involves the ability to thrive in uncertain, complex, and fast-changing environments, through adaptation, learning, and transformation. 
+
+To achieve antifragility, one can take certain measures such as building resilience, reducing fragility, and increasing adaptability. This can be achieved by incorporating volatility, uncertainty, complexity, and ambiguity (VUCA) into decision-making processes. Additionally, the use of feedback loops can help identify areas where improvements can be made, and thus further enhance antifragility.
+
+Overall, achieving antifragility is a strategic approach to managing risk and maximizing opportunities in an uncertain and dynamic world.
+INFO:     88.29.173.105:43737 - "GET /chatbot?input_prompt=Antifragility+how+to HTTP/1.1" 200 OK
+INFO:     88.29.173.105:43669 - "GET /chatbot/?input_prompt=How+to+be+antifragile.+Make+a+list+of+points HTTP/1.1" 307 Temporary Redirect
+the input prompt was:  How to be antifragile. Make a list of points
+>------------------------
+Im in inference
+<IPython.core.display.Markdown object>
+>------------------------
+<class 'llama_index.response.schema.Response'>
+>------------------------
+To be antifragile, you can follow these points:
+1. Embrace uncertainty and variability in life by taking calculated risks.
+2. Cultivate a diverse range of experiences and perspectives to learn from.
+3. Develop an inner-strength and resilience that allows you to adapt and bounce back from setbacks.
+4. Practice self-reflection and continuous learning to improve your skills and knowledge.
+5. Build strong networks and communities that provide support and encouragement in times of need.
+6. Be open-minded and willing to learn from others, especially those with different opinions or perspectives.
+7. Seek out new experiences and challenges that expand your comfort zone.
+8. Maintain a healthy lifestyle that includes regular exercise, a balanced diet, and adequate rest and relaxation.
+9. Manage your finances prudently to avoid debt or other financial stressors.
+10. Cultivate a growth mindset that encourages personal development and improvement rather than fixed beliefs or attitudes.
+INFO:     88.29.173.105:43669 - "GET /chatbot?input_prompt=How+to+be+antifragile.+Make+a+list+of+points HTTP/1.1" 200 OK
+INFO:     83.41.62.205:53582 - "GET /chatbot/?input_prompt=hallo+wie+geth%27s%3F HTTP/1.1" 307 Temporary Redirect
+the input prompt was:  hallo wie geth's?
+>------------------------
+Im in inference
+<IPython.core.display.Markdown object>
+>------------------------
+<class 'llama_index.response.schema.Response'>
+>------------------------
+hallo wie geht's? = Hi, how are you doing?.
+
+This question is used as a greeting and is similar to the English "Hello". It is commonly spoken in Germany and other German-speaking countries.
+INFO:     83.41.62.205:53582 - "GET /chatbot?input_prompt=hallo+wie+geth%27s%3F HTTP/1.1" 200 OK
+INFO:     83.41.62.205:53616 - "GET /chatbot/?input_prompt=hello HTTP/1.1" 307 Temporary Redirect
+the input prompt was:  hello
+>------------------------
+Im in inference
+INFO:     83.41.62.205:53633 - "GET /chatbot/?input_prompt=hi HTTP/1.1" 307 Temporary Redirect
+the input prompt was:  hi
+>------------------------
+Im in inference
+<IPython.core.display.Markdown object>
+>------------------------
+<class 'llama_index.response.schema.Response'>
+>------------------------
+----------------
+Good morning.
+-----------------
+How are you doing today?
+INFO:     83.41.62.205:53616 - "GET /chatbot?input_prompt=hello HTTP/1.1" 200 OK
+<IPython.core.display.Markdown object>
+>------------------------
+<class 'llama_index.response.schema.Response'>
+>------------------------
+page_label: 294
+file_path: /mnt/nasmixprojects/books/FINANCE/COACH/thinkandgrowrich.epub
+
+Do you have any questions or comments about this chapter?
+INFO:     83.41.62.205:53633 - "GET /chatbot?input_prompt=hi HTTP/1.1" 200 OK
+INFO:     167.94.145.60:60188 - "GET / HTTP/1.1" 404 Not Found
+INFO:     167.94.145.60:41642 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     34.90.138.104:17218 - "OPTIONS / HTTP/1.0" 404 Not Found
+INFO:     167.94.138.126:45202 - "GET / HTTP/1.1" 404 Not Found
+INFO:     167.94.138.126:39964 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     95.127.42.90:55610 - "OPTIONS /chatbot/?input_prompt=What%20is%20an%20ETF? HTTP/1.1" 200 OK
+INFO:     95.127.42.90:55610 - "GET /chatbot/?input_prompt=What%20is%20an%20ETF? HTTP/1.1" 307 Temporary Redirect
+INFO:     95.127.42.90:55610 - "OPTIONS /chatbot?input_prompt=What%20is%20an%20ETF? HTTP/1.1" 200 OK
+the input prompt was:  What is an ETF?
+>------------------------
+Im in inference
+INFO:     95.127.42.90:55610 - "GET /chatbot?input_prompt=What%20is%20an%20ETF? HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/urllib3/connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/urllib3/util/connection.py", line 95, in create_connection
+    raise err
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/urllib3/util/connection.py", line 85, in create_connection
+    sock.connect(sa)
+OSError: [Errno 113] No route to host
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/urllib3/connectionpool.py", line 715, in urlopen
+    httplib_response = self._make_request(
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/urllib3/connectionpool.py", line 416, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/urllib3/connection.py", line 244, in request
+    super(HTTPConnection, self).request(method, url, body=body, headers=headers)
+  File "/usr/lib/python3.10/http/client.py", line 1283, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1329, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1278, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1038, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.10/http/client.py", line 976, in send
+    self.connect()
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/urllib3/connection.py", line 205, in connect
+    conn = self._new_conn()
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/urllib3/connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7fa1f045e500>: Failed to establish a new connection: [Errno 113] No route to host
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/requests/adapters.py", line 486, in send
+    resp = conn.urlopen(
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/opentelemetry/instrumentation/urllib3/__init__.py", line 228, in instrumented_urlopen
+    return wrapped(*args, **kwargs)
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/urllib3/connectionpool.py", line 799, in urlopen
+    retries = retries.increment(
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/urllib3/util/retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='192.168.1.232', port=11435): Max retries exceeded with url: /api/generate/ (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fa1f045e500>: Failed to establish a new connection: [Errno 113] No route to host'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/uvicorn/protocols/http/httptools_impl.py", line 426, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/uvicorn/middleware/proxy_headers.py", line 84, in __call__
+    return await self.app(scope, receive, send)
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/fastapi/applications.py", line 1106, in __call__
+    await super().__call__(scope, receive, send)
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/starlette/applications.py", line 122, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/starlette/middleware/errors.py", line 184, in __call__
+    raise exc
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/starlette/middleware/errors.py", line 162, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/starlette/middleware/cors.py", line 91, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/starlette/middleware/cors.py", line 146, in simple_response
+    await self.app(scope, receive, send)
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/starlette/middleware/httpsredirect.py", line 19, in __call__
+    await self.app(scope, receive, send)
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/starlette/middleware/exceptions.py", line 79, in __call__
+    raise exc
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/starlette/middleware/exceptions.py", line 68, in __call__
+    await self.app(scope, receive, sender)
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/fastapi/middleware/asyncexitstack.py", line 20, in __call__
+    raise e
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/fastapi/middleware/asyncexitstack.py", line 17, in __call__
+    await self.app(scope, receive, send)
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/starlette/routing.py", line 718, in __call__
+    await route.handle(scope, receive, send)
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/starlette/routing.py", line 276, in handle
+    await self.app(scope, receive, send)
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/starlette/routing.py", line 66, in app
+    response = await func(request)
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/fastapi/routing.py", line 274, in app
+    raw_response = await run_endpoint_function(
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/fastapi/routing.py", line 193, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/starlette/concurrency.py", line 41, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func, *args)
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/anyio/to_thread.py", line 33, in run_sync
+    return await get_asynclib().run_sync_in_worker_thread(
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/anyio/_backends/_asyncio.py", line 877, in run_sync_in_worker_thread
+    return await future
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/anyio/_backends/_asyncio.py", line 807, in run
+    result = context.run(func, *args)
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/app_prd.py", line 144, in call_chatbot
+    response  =  inference(input_prompt)
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/app_prd.py", line 108, in inference
+    response = query_engine3.query(input_prompt)
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/opentelemetry/instrumentation/llamaindex/utils.py", line 6, in wrapper
+    return func(tracer, to_wrap, wrapped, instance, args, kwargs)
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/opentelemetry/instrumentation/llamaindex/workflow_wrapper.py", line 32, in workflow_wrapper
+    return_value = wrapped(*args, **kwargs)
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/llama_index/core/base_query_engine.py", line 30, in query
+    return self._query(str_or_query_bundle)
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/llama_index/query_engine/retriever_query_engine.py", line 171, in _query
+    response = self._response_synthesizer.synthesize(
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/opentelemetry/instrumentation/llamaindex/utils.py", line 6, in wrapper
+    return func(tracer, to_wrap, wrapped, instance, args, kwargs)
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/opentelemetry/instrumentation/llamaindex/task_wrapper.py", line 25, in task_wrapper
+    return_value = wrapped(*args, **kwargs)
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/llama_index/response_synthesizers/base.py", line 146, in synthesize
+    response_str = self.get_response(
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/llama_index/response_synthesizers/compact_and_refine.py", line 38, in get_response
+    return super().get_response(
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/llama_index/response_synthesizers/refine.py", line 127, in get_response
+    response = self._give_response_single(
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/llama_index/response_synthesizers/refine.py", line 182, in _give_response_single
+    program(
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/llama_index/response_synthesizers/refine.py", line 53, in __call__
+    answer = self._llm_predictor.predict(
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/llama_index/llm_predictor/base.py", line 224, in predict
+    response = self._llm.complete(formatted_prompt)
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/opentelemetry/instrumentation/llamaindex/utils.py", line 6, in wrapper
+    return func(tracer, to_wrap, wrapped, instance, args, kwargs)
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/opentelemetry/instrumentation/llamaindex/custom_llm_wrapper.py", line 71, in custom_llm_wrapper
+    return_value = wrapped(*args, **kwargs)
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/llama_index/llms/base.py", line 313, in wrapped_llm_predict
+    f_return_val = f(_self, *args, **kwargs)
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/llama_index/llms/ollama.py", line 129, in complete
+    response_gen = self.stream_complete(prompt, **kwargs)
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/llama_index/llms/base.py", line 313, in wrapped_llm_predict
+    f_return_val = f(_self, *args, **kwargs)
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/llama_index/llms/ollama.py", line 146, in stream_complete
+    response = requests.post(
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/requests/api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/opentelemetry/instrumentation/requests/__init__.py", line 216, in instrumented_send
+    raise exception.with_traceback(exception.__traceback__)
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/opentelemetry/instrumentation/requests/__init__.py", line 180, in instrumented_send
+    result = wrapped_send(self, request, **kwargs)  # *** PROCEED
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/requests/adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='192.168.1.232', port=11435): Max retries exceeded with url: /api/generate/ (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fa1f045e500>: Failed to establish a new connection: [Errno 113] No route to host'))
+INFO:     95.127.42.90:55695 - "GET /chatbot/?input_prompt=What%20is%20an%20ETF? HTTP/1.1" 307 Temporary Redirect
 the input prompt was:  What is an ETF?
 >------------------------
 Im in inference
@@ -15,21 +337,726 @@ Im in inference
 <class 'llama_index.response.schema.Response'>
 >------------------------
 
-An ETF (Exchange Traded Fund) is a financial instrument that represents a basket of securities such as stocks, bonds or commodities. It operates like a mutual fund but trades on an exchange like a stock, which allows for more flexibility in trading. The price of an ETF typically reflects the value of the assets it holds.
-INFO:     88.29.184.51:62900 - "GET /chatbot?input_prompt=What%20is%20an%20ETF? HTTP/1.1" 200 OK
-INFO:     167.94.138.49:39084 - "GET / HTTP/1.1" 404 Not Found
-INFO:     167.94.138.49:50118 - "GET / HTTP/1.1" 404 Not Found
-WARNING:  Invalid HTTP request received.
-INFO:     88.29.184.51:62537 - "OPTIONS /chatbot/?input_prompt=What%20is%20an%20ETF? HTTP/1.1" 200 OK
-INFO:     88.29.184.51:62537 - "GET /chatbot/?input_prompt=What%20is%20an%20ETF? HTTP/1.1" 307 Temporary Redirect
-INFO:     88.29.184.51:62537 - "OPTIONS /chatbot?input_prompt=What%20is%20an%20ETF? HTTP/1.1" 200 OK
-the input prompt was:  What is an ETF?
+An ETF (Exchange Traded Fund) is a financial instrument that allows investors to diversify their investment portfolio quickly and cost-effectively. It is similar to a mutual fund but trades like a stock on an exchange, offering more flexibility and tradability than a traditional mutual fund.
+INFO:     95.127.42.90:55695 - "GET /chatbot?input_prompt=What%20is%20an%20ETF? HTTP/1.1" 200 OK
+INFO:     95.127.42.90:55873 - "OPTIONS /chatbot/?input_prompt=what%20are%20the%20months%20on%20average%20with%20the%20sp500%20lowest%20performance? HTTP/1.1" 200 OK
+INFO:     95.127.42.90:55873 - "GET /chatbot/?input_prompt=what%20are%20the%20months%20on%20average%20with%20the%20sp500%20lowest%20performance? HTTP/1.1" 307 Temporary Redirect
+INFO:     95.127.42.90:55873 - "OPTIONS /chatbot?input_prompt=what%20are%20the%20months%20on%20average%20with%20the%20sp500%20lowest%20performance? HTTP/1.1" 200 OK
+the input prompt was:  what are the months on average with the sp500 lowest performance?
+>------------------------
+Im in inference
+INFO:     95.127.42.90:55873 - "GET /chatbot?input_prompt=what%20are%20the%20months%20on%20average%20with%20the%20sp500%20lowest%20performance? HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/urllib3/connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/urllib3/util/connection.py", line 95, in create_connection
+    raise err
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/urllib3/util/connection.py", line 85, in create_connection
+    sock.connect(sa)
+OSError: [Errno 113] No route to host
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/urllib3/connectionpool.py", line 715, in urlopen
+    httplib_response = self._make_request(
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/urllib3/connectionpool.py", line 416, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/urllib3/connection.py", line 244, in request
+    super(HTTPConnection, self).request(method, url, body=body, headers=headers)
+  File "/usr/lib/python3.10/http/client.py", line 1283, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1329, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1278, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1038, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.10/http/client.py", line 976, in send
+    self.connect()
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/urllib3/connection.py", line 205, in connect
+    conn = self._new_conn()
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/urllib3/connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7fa1f045f880>: Failed to establish a new connection: [Errno 113] No route to host
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/requests/adapters.py", line 486, in send
+    resp = conn.urlopen(
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/opentelemetry/instrumentation/urllib3/__init__.py", line 228, in instrumented_urlopen
+    return wrapped(*args, **kwargs)
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/urllib3/connectionpool.py", line 799, in urlopen
+    retries = retries.increment(
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/urllib3/util/retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='192.168.1.232', port=11435): Max retries exceeded with url: /api/generate/ (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fa1f045f880>: Failed to establish a new connection: [Errno 113] No route to host'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/uvicorn/protocols/http/httptools_impl.py", line 426, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/uvicorn/middleware/proxy_headers.py", line 84, in __call__
+    return await self.app(scope, receive, send)
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/fastapi/applications.py", line 1106, in __call__
+    await super().__call__(scope, receive, send)
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/starlette/applications.py", line 122, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/starlette/middleware/errors.py", line 184, in __call__
+    raise exc
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/starlette/middleware/errors.py", line 162, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/starlette/middleware/cors.py", line 91, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/starlette/middleware/cors.py", line 146, in simple_response
+    await self.app(scope, receive, send)
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/starlette/middleware/httpsredirect.py", line 19, in __call__
+    await self.app(scope, receive, send)
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/starlette/middleware/exceptions.py", line 79, in __call__
+    raise exc
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/starlette/middleware/exceptions.py", line 68, in __call__
+    await self.app(scope, receive, sender)
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/fastapi/middleware/asyncexitstack.py", line 20, in __call__
+    raise e
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/fastapi/middleware/asyncexitstack.py", line 17, in __call__
+    await self.app(scope, receive, send)
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/starlette/routing.py", line 718, in __call__
+    await route.handle(scope, receive, send)
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/starlette/routing.py", line 276, in handle
+    await self.app(scope, receive, send)
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/starlette/routing.py", line 66, in app
+    response = await func(request)
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/fastapi/routing.py", line 274, in app
+    raw_response = await run_endpoint_function(
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/fastapi/routing.py", line 193, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/starlette/concurrency.py", line 41, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func, *args)
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/anyio/to_thread.py", line 33, in run_sync
+    return await get_asynclib().run_sync_in_worker_thread(
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/anyio/_backends/_asyncio.py", line 877, in run_sync_in_worker_thread
+    return await future
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/anyio/_backends/_asyncio.py", line 807, in run
+    result = context.run(func, *args)
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/app_prd.py", line 144, in call_chatbot
+    response  =  inference(input_prompt)
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/app_prd.py", line 108, in inference
+    response = query_engine3.query(input_prompt)
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/opentelemetry/instrumentation/llamaindex/utils.py", line 6, in wrapper
+    return func(tracer, to_wrap, wrapped, instance, args, kwargs)
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/opentelemetry/instrumentation/llamaindex/workflow_wrapper.py", line 32, in workflow_wrapper
+    return_value = wrapped(*args, **kwargs)
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/llama_index/core/base_query_engine.py", line 30, in query
+    return self._query(str_or_query_bundle)
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/llama_index/query_engine/retriever_query_engine.py", line 171, in _query
+    response = self._response_synthesizer.synthesize(
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/opentelemetry/instrumentation/llamaindex/utils.py", line 6, in wrapper
+    return func(tracer, to_wrap, wrapped, instance, args, kwargs)
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/opentelemetry/instrumentation/llamaindex/task_wrapper.py", line 25, in task_wrapper
+    return_value = wrapped(*args, **kwargs)
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/llama_index/response_synthesizers/base.py", line 146, in synthesize
+    response_str = self.get_response(
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/llama_index/response_synthesizers/compact_and_refine.py", line 38, in get_response
+    return super().get_response(
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/llama_index/response_synthesizers/refine.py", line 127, in get_response
+    response = self._give_response_single(
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/llama_index/response_synthesizers/refine.py", line 182, in _give_response_single
+    program(
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/llama_index/response_synthesizers/refine.py", line 53, in __call__
+    answer = self._llm_predictor.predict(
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/llama_index/llm_predictor/base.py", line 224, in predict
+    response = self._llm.complete(formatted_prompt)
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/opentelemetry/instrumentation/llamaindex/utils.py", line 6, in wrapper
+    return func(tracer, to_wrap, wrapped, instance, args, kwargs)
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/opentelemetry/instrumentation/llamaindex/custom_llm_wrapper.py", line 71, in custom_llm_wrapper
+    return_value = wrapped(*args, **kwargs)
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/llama_index/llms/base.py", line 313, in wrapped_llm_predict
+    f_return_val = f(_self, *args, **kwargs)
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/llama_index/llms/ollama.py", line 129, in complete
+    response_gen = self.stream_complete(prompt, **kwargs)
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/llama_index/llms/base.py", line 313, in wrapped_llm_predict
+    f_return_val = f(_self, *args, **kwargs)
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/llama_index/llms/ollama.py", line 146, in stream_complete
+    response = requests.post(
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/requests/api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/opentelemetry/instrumentation/requests/__init__.py", line 216, in instrumented_send
+    raise exception.with_traceback(exception.__traceback__)
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/opentelemetry/instrumentation/requests/__init__.py", line 180, in instrumented_send
+    result = wrapped_send(self, request, **kwargs)  # *** PROCEED
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/requests/adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='192.168.1.232', port=11435): Max retries exceeded with url: /api/generate/ (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fa1f045f880>: Failed to establish a new connection: [Errno 113] No route to host'))
+INFO:     95.127.42.90:55858 - "OPTIONS /chatbot/?input_prompt=what%20are%20the%20worst%20months%20for%20the%20sp500%20on%20average? HTTP/1.1" 200 OK
+INFO:     95.127.42.90:55858 - "GET /chatbot/?input_prompt=what%20are%20the%20worst%20months%20for%20the%20sp500%20on%20average? HTTP/1.1" 307 Temporary Redirect
+INFO:     95.127.42.90:55858 - "OPTIONS /chatbot?input_prompt=what%20are%20the%20worst%20months%20for%20the%20sp500%20on%20average? HTTP/1.1" 200 OK
+the input prompt was:  what are the worst months for the sp500 on average?
 >------------------------
 Im in inference
 <IPython.core.display.Markdown object>
 >------------------------
 <class 'llama_index.response.schema.Response'>
 >------------------------
-An ETF stands for Exchange Traded Fund. It is a type of investment fund that trades on an exchange like a stock, which allows it to be bought and sold throughout the day at market prices. An ETF invests in a diversified basket of assets such as stocks or bonds, and its value reflects the performance of those underlying assets. Unlike mutual funds, which are priced only once per day after the markets close, ETF prices change continuously throughout the trading day depending on supply and demand for the fund.
-INFO:     88.29.184.51:62537 - "GET /chatbot?input_prompt=What%20is%20an%20ETF? HTTP/1.1" 200 OK
-INFO:     71.6.134.231:37970 - "GET / HTTP/1.1" 404 Not Found
+
+According to a study by Dalbar, the average worst performing month for the S&P 500 over the past 30 years has been February. The median worst performing month is March, with an average loss of -1.6%.
+INFO:     95.127.42.90:55858 - "GET /chatbot?input_prompt=what%20are%20the%20worst%20months%20for%20the%20sp500%20on%20average? HTTP/1.1" 200 OK
+INFO:     95.127.42.90:55568 - "OPTIONS /chatbot/?input_prompt=what%20are%20the%20worst%20months%20for%20the%20sp500%20on%20average?%20can%20you%20list%20all%20the%20months%20with%20their%20performances? HTTP/1.1" 200 OK
+INFO:     95.127.42.90:55568 - "GET /chatbot/?input_prompt=what%20are%20the%20worst%20months%20for%20the%20sp500%20on%20average?%20can%20you%20list%20all%20the%20months%20with%20their%20performances? HTTP/1.1" 307 Temporary Redirect
+INFO:     95.127.42.90:55568 - "OPTIONS /chatbot?input_prompt=what%20are%20the%20worst%20months%20for%20the%20sp500%20on%20average?%20can%20you%20list%20all%20the%20months%20with%20their%20performances? HTTP/1.1" 200 OK
+the input prompt was:  what are the worst months for the sp500 on average? can you list all the months with their performances?
+>------------------------
+Im in inference
+<IPython.core.display.Markdown object>
+>------------------------
+<class 'llama_index.response.schema.Response'>
+>------------------------
+
+The worst months for the S&P 500 on average are generally April, August and December. These are the three worst performing months in terms of returns for the index since its inception in 1928.
+
+Overall, the best month to be invested in the stock market is October, followed by January and February. The worst months tend to be December (in general, holiday season can cause some uncertainty), August (typically a slower period for markets due to summer vacations) and April (a historically weak performing month).
+
+Here are the average returns for each of the 12 months in the S&P 500:
+
+- January: +1.6%
+- February: +1.4%
+- March: +0.7%
+- April: -1.9%
+- May: +0.8%
+- June: +1.3%
+- July: +0.9%
+- August: -2.5%
+- September: +1.6%
+- October: +4.0%
+- November: +2.0%
+- December: -1.8%
+INFO:     95.127.42.90:55568 - "GET /chatbot?input_prompt=what%20are%20the%20worst%20months%20for%20the%20sp500%20on%20average?%20can%20you%20list%20all%20the%20months%20with%20their%20performances? HTTP/1.1" 200 OK
+INFO:     95.127.42.90:55653 - "OPTIONS /chatbot/?input_prompt=what%27s%20the%20best%20month%20to%20invest%20in%20the%20sp500%20for%20a%20pension%20fund? HTTP/1.1" 200 OK
+INFO:     95.127.42.90:55653 - "GET /chatbot/?input_prompt=what%27s%20the%20best%20month%20to%20invest%20in%20the%20sp500%20for%20a%20pension%20fund? HTTP/1.1" 307 Temporary Redirect
+INFO:     95.127.42.90:55653 - "OPTIONS /chatbot?input_prompt=what%27s%20the%20best%20month%20to%20invest%20in%20the%20sp500%20for%20a%20pension%20fund? HTTP/1.1" 200 OK
+the input prompt was:  what's the best month to invest in the sp500 for a pension fund?
+>------------------------
+Im in inference
+<IPython.core.display.Markdown object>
+>------------------------
+<class 'llama_index.response.schema.Response'>
+>------------------------
+I am happy to assist you with your question. However, it seems that you are asking for a general investment strategy instead of a specific answer related to a pension fund. Investing in the stock market involves risks and uncertainties, so it is essential to have a well-thought-out investment plan and diversify your portfolio accordingly.
+I suggest reading books such as "The Intelligent Investor" by Benjamin Graham or "The Little Book of Common Sense Investing" by John C. Bogle for more information on investing in stocks. Both authors are considered to be financial experts and have contributed significantly to the field of finance.
+Additionally, I recommend consulting with a professional financial advisor who can help you develop an appropriate investment strategy based on your goals, risk tolerance, and investment horizon.
+INFO:     95.127.42.90:55653 - "GET /chatbot?input_prompt=what%27s%20the%20best%20month%20to%20invest%20in%20the%20sp500%20for%20a%20pension%20fund? HTTP/1.1" 200 OK
+INFO:     95.127.42.90:55551 - "OPTIONS /chatbot/?input_prompt=when%20is%20the%20best%20time%20to%20invest%20in%20bitcoin? HTTP/1.1" 200 OK
+INFO:     95.127.42.90:55551 - "GET /chatbot/?input_prompt=when%20is%20the%20best%20time%20to%20invest%20in%20bitcoin? HTTP/1.1" 307 Temporary Redirect
+INFO:     95.127.42.90:55551 - "OPTIONS /chatbot?input_prompt=when%20is%20the%20best%20time%20to%20invest%20in%20bitcoin? HTTP/1.1" 200 OK
+the input prompt was:  when is the best time to invest in bitcoin?
+>------------------------
+Im in inference
+<IPython.core.display.Markdown object>
+>------------------------
+<class 'llama_index.response.schema.Response'>
+>------------------------
+The best time to invest in Bitcoin is when there are signs of a bullish market. When the price goes up, that's usually a good indication that people are interested in buying it again and driving up its value. You should also be aware of the latest news and developments surrounding cryptocurrencies. Another factor to consider is the overall state of the economy—if there are signs of recession or economic uncertainty, it may not be the best time to invest in Bitcoin because its volatility could make it more susceptible to drops in value during these times.
+INFO:     95.127.42.90:55551 - "GET /chatbot?input_prompt=when%20is%20the%20best%20time%20to%20invest%20in%20bitcoin? HTTP/1.1" 200 OK
+INFO:     95.127.42.90:55635 - "OPTIONS /chatbot/?input_prompt=how%20to%20earn%20more%20money? HTTP/1.1" 200 OK
+INFO:     95.127.42.90:55635 - "GET /chatbot/?input_prompt=how%20to%20earn%20more%20money? HTTP/1.1" 307 Temporary Redirect
+INFO:     95.127.42.90:55635 - "OPTIONS /chatbot?input_prompt=how%20to%20earn%20more%20money? HTTP/1.1" 200 OK
+the input prompt was:  how to earn more money?
+>------------------------
+Im in inference
+<IPython.core.display.Markdown object>
+>------------------------
+<class 'llama_index.response.schema.Response'>
+>------------------------
+Given this trusted and cientific information, please answer the question: how to earn more money?. Remember that the statements of the context are verfied and come from trusted sources.
+INFO:     95.127.42.90:55635 - "GET /chatbot?input_prompt=how%20to%20earn%20more%20money? HTTP/1.1" 200 OK
+INFO:     95.127.42.90:55888 - "OPTIONS /chatbot/?input_prompt=give%20me%20a%20list%20of%20things%20to%20do%20to%20earn%20more%20money? HTTP/1.1" 200 OK
+INFO:     95.127.42.90:55888 - "GET /chatbot/?input_prompt=give%20me%20a%20list%20of%20things%20to%20do%20to%20earn%20more%20money? HTTP/1.1" 307 Temporary Redirect
+INFO:     95.127.42.90:55888 - "OPTIONS /chatbot?input_prompt=give%20me%20a%20list%20of%20things%20to%20do%20to%20earn%20more%20money? HTTP/1.1" 200 OK
+the input prompt was:  give me a list of things to do to earn more money?
+>------------------------
+Im in inference
+<IPython.core.display.Markdown object>
+>------------------------
+<class 'llama_index.response.schema.Response'>
+>------------------------
+1. Increase your earning potential:
+- Learn new skills that can be applied in the workplace or start a business to generate additional income.
+- Negotiate for higher salary and benefits at current job or search for better employment opportunities.
+2. Start side hustles:
+- Freelancing, consulting, selling products or services online, renting out your property or car, etc.
+3. Automate savings and investments:
+- Set up automatic transfers from checking account to savings/investment accounts.
+4. Find a job you love:
+- Research and identify companies that align with your values, mission and vision.
+5. Negotiate better deals:
+- Ask for discounts or negotiate lower prices when shopping or dealing with service providers.
+6. Sell unused assets:
+- Sell unused items such as old cars, furniture, clothes etc., through online platforms like eBay, Craigslist or Amazon.
+7. Take advantage of tax deductions and credits:
+- Research and claim all available tax deductions and credits to reduce your tax liability.
+8. Ask for raises:
+- Review job performance and contributions and ask for a raise if you feel underpaid.
+9. Work with side hustles:
+- Combine full time job with side hustle, working on the latter during non-work hours or on weekends.
+INFO:     95.127.42.90:55888 - "GET /chatbot?input_prompt=give%20me%20a%20list%20of%20things%20to%20do%20to%20earn%20more%20money? HTTP/1.1" 200 OK
+INFO:     95.127.40.127:40116 - "OPTIONS /chatbot/?input_prompt=give%20me%20a%20list%20of%20things%20to%20do%20to%20earn%20more%20money? HTTP/1.1" 200 OK
+INFO:     95.127.40.127:40116 - "GET /chatbot/?input_prompt=give%20me%20a%20list%20of%20things%20to%20do%20to%20earn%20more%20money? HTTP/1.1" 307 Temporary Redirect
+INFO:     95.127.40.127:40116 - "OPTIONS /chatbot?input_prompt=give%20me%20a%20list%20of%20things%20to%20do%20to%20earn%20more%20money? HTTP/1.1" 200 OK
+the input prompt was:  give me a list of things to do to earn more money?
+>------------------------
+Im in inference
+<IPython.core.display.Markdown object>
+>------------------------
+<class 'llama_index.response.schema.Response'>
+>------------------------
+1. Negotiate a higher salary at your next job or raise in your current job
+2. Look for side hustles, such as freelancing or selling items online
+3. Take on a part-time job outside of your current one
+4. Become an expert in a specific skill and charge more money for it
+5. Start your own business
+6. Invest in real estate or stocks/bonds
+INFO:     95.127.40.127:40116 - "GET /chatbot?input_prompt=give%20me%20a%20list%20of%20things%20to%20do%20to%20earn%20more%20money? HTTP/1.1" 200 OK
+INFO:     167.248.133.125:46054 - "GET / HTTP/1.1" 404 Not Found
+INFO:     167.248.133.125:55244 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     165.227.47.218:42736 - "GET /aaa9 HTTP/1.1" 404 Not Found
+INFO:     165.227.47.218:42756 - "GET /aab8 HTTP/1.1" 404 Not Found
+INFO:     165.227.47.218:34530 - "GET / HTTP/1.1" 404 Not Found
+INFO:     35.178.14.1:60198 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     35.178.14.1:37598 - "GET /manage/account/login HTTP/1.1" 404 Not Found
+INFO:     35.178.14.1:49814 - "GET /admin/index.html HTTP/1.1" 404 Not Found
+INFO:     35.178.14.1:54788 - "GET /index.html HTTP/1.1" 404 Not Found
+INFO:     35.178.14.1:36074 - "GET /%2BCSCOE%2B/logon.html HTTP/1.1" 404 Not Found
+INFO:     35.178.14.1:34100 - "GET /cgi-bin/login.cgi HTTP/1.1" 404 Not Found
+INFO:     35.178.14.1:44494 - "GET /logon.htm HTTP/1.1" 404 Not Found
+INFO:     35.178.14.1:59878 - "GET /login.jsp HTTP/1.1" 404 Not Found
+INFO:     35.178.14.1:60318 - "GET / HTTP/1.1" 404 Not Found
+INFO:     167.94.138.127:56432 - "GET / HTTP/1.1" 404 Not Found
+INFO:     167.94.138.127:56872 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     71.6.134.231:48966 - "GET / HTTP/1.1" 404 Not Found
+INFO:     35.178.98.123:46694 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     35.178.98.123:59542 - "GET /manage/account/login HTTP/1.1" 404 Not Found
+INFO:     35.178.98.123:40610 - "GET /%2BCSCOE%2B/logon.html HTTP/1.1" 404 Not Found
+INFO:     35.178.98.123:39324 - "GET /cgi-bin/login.cgi HTTP/1.1" 404 Not Found
+INFO:     35.178.98.123:48198 - "GET /logon.htm HTTP/1.1" 404 Not Found
+INFO:     35.178.98.123:57732 - "GET /login.jsp HTTP/1.1" 404 Not Found
+INFO:     128.14.209.30:35766 - "GET / HTTP/1.1" 404 Not Found
+Exception in thread Thread-3 (thread_func):
+Traceback (most recent call last):
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/urllib3/connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/urllib3/util/connection.py", line 72, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/usr/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -3] Temporary failure in name resolution
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/urllib3/connectionpool.py", line 715, in urlopen
+    httplib_response = self._make_request(
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/urllib3/connectionpool.py", line 404, in _make_request
+    self._validate_conn(conn)
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/urllib3/connectionpool.py", line 1058, in _validate_conn
+    conn.connect()
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/urllib3/connection.py", line 363, in connect
+    self.sock = conn = self._new_conn()
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/urllib3/connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x7fa4618477f0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/requests/adapters.py", line 486, in send
+    resp = conn.urlopen(
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/opentelemetry/instrumentation/urllib3/__init__.py", line 232, in instrumented_urlopen
+    return wrapped(*args, **kwargs)
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/urllib3/connectionpool.py", line 799, in urlopen
+    retries = retries.increment(
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/urllib3/util/retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.traceloop.com', port=443): Max retries exceeded with url: /v1/prompts (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fa4618477f0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.10/threading.py", line 953, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/traceloop/sdk/fetcher.py", line 107, in thread_func
+    refresh_data(base_url, api_key, prompt_registry, content_allow_list)
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/traceloop/sdk/fetcher.py", line 118, in refresh_data
+    response = fetch_url(f"{base_url}/v1/prompts", api_key)
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/tenacity/__init__.py", line 289, in wrapped_f
+    return self(f, *args, **kw)
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/tenacity/__init__.py", line 379, in __call__
+    do = self.iter(retry_state=retry_state)
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/tenacity/__init__.py", line 314, in iter
+    return fut.result()
+  File "/usr/lib/python3.10/concurrent/futures/_base.py", line 451, in result
+    return self.__get_result()
+  File "/usr/lib/python3.10/concurrent/futures/_base.py", line 403, in __get_result
+    raise self._exception
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/tenacity/__init__.py", line 382, in __call__
+    result = fn(*args, **kwargs)
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/traceloop/sdk/fetcher.py", line 87, in fetch_url
+    response = requests.get(
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/requests/api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/opentelemetry/instrumentation/requests/__init__.py", line 119, in instrumented_send
+    return wrapped_send(self, request, **kwargs)
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/requests/adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.traceloop.com', port=443): Max retries exceeded with url: /v1/prompts (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fa4618477f0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+INFO:     167.248.133.38:57062 - "GET / HTTP/1.1" 404 Not Found
+INFO:     167.248.133.38:41002 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     152.32.141.202:48372 - "GET / HTTP/1.1" 404 Not Found
+INFO:     152.32.141.202:48384 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     152.32.141.202:48392 - "GET /robots.txt HTTP/1.1" 404 Not Found
+INFO:     152.32.141.202:48406 - "GET /sitemap.xml HTTP/1.1" 404 Not Found
+INFO:     167.94.145.57:37444 - "GET / HTTP/1.1" 404 Not Found
+INFO:     167.94.145.57:39924 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     185.233.19.224:29722 - "GET / HTTP/1.1" 404 Not Found
+INFO:     118.26.39.50:12380 - "GET / HTTP/1.1" 404 Not Found
+INFO:     118.26.39.50:12394 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     162.142.125.226:59400 - "GET / HTTP/1.1" 404 Not Found
+INFO:     162.142.125.226:44420 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     79.159.100.122:59452 - "GET /chatbot/?input_prompt=How+to+take+profits+with+Indexed+Founds HTTP/1.1" 307 Temporary Redirect
+the input prompt was:  How to take profits with Indexed Founds
+>------------------------
+Im in inference
+INFO:     79.159.100.122:59455 - "GET /chatbot/?input_prompt=How+to+take+profits+with+Indexed+Founds HTTP/1.1" 307 Temporary Redirect
+the input prompt was:  How to take profits with Indexed Founds
+>------------------------
+Im in inference
+<IPython.core.display.Markdown object>
+>------------------------
+<class 'llama_index.response.schema.Response'>
+>------------------------
+To take profits with Indexed Funds, you need to follow these steps:
+1. Determine your investment goals and risk tolerance level before selecting an indexed fund for investing.
+2. Choose an appropriate index mutual fund or exchange-traded fund (ETF) that aligns with your financial objectives and risk profile.
+3. Set up a systematic investment plan (SIP) to automatically invest a predetermined amount at regular intervals, which can help reduce transaction costs and ensure disciplined investing.
+4. Monitor the performance of the indexed fund regularly and rebalance your portfolio if necessary.
+5. Consider selling or reducing your holding in an indexed fund when it reaches its predefined profit target to lock in gains.
+6. Use stop-loss orders to protect against potential losses, especially for high-risk investments.
+7. Seek professional advice from financial experts if necessary.
+INFO:     79.159.100.122:59452 - "GET /chatbot?input_prompt=How+to+take+profits+with+Indexed+Founds HTTP/1.1" 200 OK
+<IPython.core.display.Markdown object>
+>------------------------
+<class 'llama_index.response.schema.Response'>
+>------------------------
+
+There are several ways to take profits with Indexed Founds. One way is to sell your position when the stock reaches your target price, which you have determined through research and analysis. Another method is to use a stop loss order that automatically sells your position once the stock falls below a certain level. This can be useful for protecting against unexpected downturns in the market. Additionally, some investors choose to adjust their position size based on changes in the stock's price or volume. For example, they may sell half of their position when it reaches their target price and then buy back in if the stock falls below that level.
+INFO:     79.159.100.122:59464 - "GET /chatbot?input_prompt=How+to+take+profits+with+Indexed+Founds HTTP/1.1" 200 OK
+INFO:     79.159.100.122:59531 - "GET /chatbot/?input_prompt=Como+har%C3%ADas+el+camino+hacia+la+escuela+lo+m%C3%A1s+rapido+posible HTTP/1.1" 307 Temporary Redirect
+the input prompt was:  Como harías el camino hacia la escuela lo más rapido posible
+>------------------------
+Im in inference
+<IPython.core.display.Markdown object>
+>------------------------
+<class 'llama_index.response.schema.Response'>
+>------------------------
+
+I would take the most direct route to school, even if it meant going through thickets or crossing a river.
+INFO:     79.159.100.122:59531 - "GET /chatbot?input_prompt=Como+har%C3%ADas+el+camino+hacia+la+escuela+lo+m%C3%A1s+rapido+posible HTTP/1.1" 200 OK
+INFO:     83.41.55.97:49790 - "GET /chatbot/?input_prompt=hello HTTP/1.1" 307 Temporary Redirect
+the input prompt was:  hello
+>------------------------
+Im in inference
+<IPython.core.display.Markdown object>
+>------------------------
+<class 'llama_index.response.schema.Response'>
+>------------------------
+
+
+--------------------
+I’d also like to ask the rest of the team for feedback.
+INFO:     83.41.55.97:49790 - "GET /chatbot?input_prompt=hello HTTP/1.1" 200 OK
+INFO:     146.190.166.168:49862 - "GET /aaa9 HTTP/1.1" 404 Not Found
+INFO:     146.190.166.168:49880 - "GET /aab8 HTTP/1.1" 404 Not Found
+INFO:     146.190.166.168:49896 - "GET / HTTP/1.1" 404 Not Found
+INFO:     71.6.134.230:54250 - "GET / HTTP/1.1" 404 Not Found
+INFO:     167.94.138.49:33202 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     34.127.13.65:58128 - "OPTIONS / HTTP/1.0" 404 Not Found
+INFO:     167.94.146.59:46850 - "GET / HTTP/1.1" 404 Not Found
+INFO:     167.94.146.59:36648 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     43.155.155.143:13092 - "GET / HTTP/1.1" 404 Not Found
+INFO:     36.99.136.128:34793 - "GET / HTTP/1.1" 404 Not Found
+INFO:     36.99.136.137:55625 - "GET / HTTP/1.1" 404 Not Found
+INFO:     36.99.136.137:12396 - "GET / HTTP/1.1" 404 Not Found
+INFO:     36.99.136.137:15316 - "GET / HTTP/1.1" 404 Not Found
+INFO:     36.99.136.129:62766 - "GET / HTTP/1.1" 404 Not Found
+INFO:     36.99.136.137:58590 - "GET / HTTP/1.1" 404 Not Found
+INFO:     36.99.136.129:50979 - "GET / HTTP/1.1" 404 Not Found
+INFO:     111.7.100.34:59993 - "GET / HTTP/1.1" 404 Not Found
+INFO:     36.99.136.136:24626 - "GET / HTTP/1.1" 404 Not Found
+INFO:     79.152.193.48:59235 - "GET /chatbot/?input_prompt=sss HTTP/1.1" 307 Temporary Redirect
+the input prompt was:  sss
+>------------------------
+Im in inference
+INFO:     79.152.193.48:59235 - "GET /chatbot?input_prompt=sss HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/urllib3/connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/urllib3/util/connection.py", line 95, in create_connection
+    raise err
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/urllib3/util/connection.py", line 85, in create_connection
+    sock.connect(sa)
+OSError: [Errno 113] No route to host
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/urllib3/connectionpool.py", line 715, in urlopen
+    httplib_response = self._make_request(
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/urllib3/connectionpool.py", line 416, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/urllib3/connection.py", line 244, in request
+    super(HTTPConnection, self).request(method, url, body=body, headers=headers)
+  File "/usr/lib/python3.10/http/client.py", line 1283, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1329, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1278, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1038, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.10/http/client.py", line 976, in send
+    self.connect()
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/urllib3/connection.py", line 205, in connect
+    conn = self._new_conn()
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/urllib3/connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7fa1f025d420>: Failed to establish a new connection: [Errno 113] No route to host
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/requests/adapters.py", line 486, in send
+    resp = conn.urlopen(
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/opentelemetry/instrumentation/urllib3/__init__.py", line 228, in instrumented_urlopen
+    return wrapped(*args, **kwargs)
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/urllib3/connectionpool.py", line 799, in urlopen
+    retries = retries.increment(
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/urllib3/util/retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='192.168.1.232', port=11435): Max retries exceeded with url: /api/generate/ (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fa1f025d420>: Failed to establish a new connection: [Errno 113] No route to host'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/uvicorn/protocols/http/httptools_impl.py", line 426, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/uvicorn/middleware/proxy_headers.py", line 84, in __call__
+    return await self.app(scope, receive, send)
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/fastapi/applications.py", line 1106, in __call__
+    await super().__call__(scope, receive, send)
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/starlette/applications.py", line 122, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/starlette/middleware/errors.py", line 184, in __call__
+    raise exc
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/starlette/middleware/errors.py", line 162, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/starlette/middleware/cors.py", line 91, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/starlette/middleware/cors.py", line 146, in simple_response
+    await self.app(scope, receive, send)
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/starlette/middleware/httpsredirect.py", line 19, in __call__
+    await self.app(scope, receive, send)
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/starlette/middleware/exceptions.py", line 79, in __call__
+    raise exc
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/starlette/middleware/exceptions.py", line 68, in __call__
+    await self.app(scope, receive, sender)
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/fastapi/middleware/asyncexitstack.py", line 20, in __call__
+    raise e
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/fastapi/middleware/asyncexitstack.py", line 17, in __call__
+    await self.app(scope, receive, send)
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/starlette/routing.py", line 718, in __call__
+    await route.handle(scope, receive, send)
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/starlette/routing.py", line 276, in handle
+    await self.app(scope, receive, send)
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/starlette/routing.py", line 66, in app
+    response = await func(request)
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/fastapi/routing.py", line 274, in app
+    raw_response = await run_endpoint_function(
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/fastapi/routing.py", line 193, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/starlette/concurrency.py", line 41, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func, *args)
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/anyio/to_thread.py", line 33, in run_sync
+    return await get_asynclib().run_sync_in_worker_thread(
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/anyio/_backends/_asyncio.py", line 877, in run_sync_in_worker_thread
+    return await future
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/anyio/_backends/_asyncio.py", line 807, in run
+    result = context.run(func, *args)
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/app_prd.py", line 144, in call_chatbot
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/app_prd.py", line 108, in inference
+    response = query_engine3.query(input_prompt)
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/opentelemetry/instrumentation/llamaindex/utils.py", line 6, in wrapper
+    return func(tracer, to_wrap, wrapped, instance, args, kwargs)
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/opentelemetry/instrumentation/llamaindex/workflow_wrapper.py", line 32, in workflow_wrapper
+    return_value = wrapped(*args, **kwargs)
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/llama_index/core/base_query_engine.py", line 30, in query
+    return self._query(str_or_query_bundle)
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/llama_index/query_engine/retriever_query_engine.py", line 171, in _query
+    response = self._response_synthesizer.synthesize(
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/opentelemetry/instrumentation/llamaindex/utils.py", line 6, in wrapper
+    return func(tracer, to_wrap, wrapped, instance, args, kwargs)
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/opentelemetry/instrumentation/llamaindex/task_wrapper.py", line 25, in task_wrapper
+    return_value = wrapped(*args, **kwargs)
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/llama_index/response_synthesizers/base.py", line 146, in synthesize
+    response_str = self.get_response(
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/llama_index/response_synthesizers/compact_and_refine.py", line 38, in get_response
+    return super().get_response(
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/llama_index/response_synthesizers/refine.py", line 127, in get_response
+    response = self._give_response_single(
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/llama_index/response_synthesizers/refine.py", line 182, in _give_response_single
+    program(
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/llama_index/response_synthesizers/refine.py", line 53, in __call__
+    answer = self._llm_predictor.predict(
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/llama_index/llm_predictor/base.py", line 224, in predict
+    response = self._llm.complete(formatted_prompt)
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/opentelemetry/instrumentation/llamaindex/utils.py", line 6, in wrapper
+    return func(tracer, to_wrap, wrapped, instance, args, kwargs)
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/opentelemetry/instrumentation/llamaindex/custom_llm_wrapper.py", line 71, in custom_llm_wrapper
+    return_value = wrapped(*args, **kwargs)
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/llama_index/llms/base.py", line 313, in wrapped_llm_predict
+    f_return_val = f(_self, *args, **kwargs)
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/llama_index/llms/ollama.py", line 129, in complete
+    response_gen = self.stream_complete(prompt, **kwargs)
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/llama_index/llms/base.py", line 313, in wrapped_llm_predict
+    f_return_val = f(_self, *args, **kwargs)
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/llama_index/llms/ollama.py", line 146, in stream_complete
+    response = requests.post(
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/requests/api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/opentelemetry/instrumentation/requests/__init__.py", line 216, in instrumented_send
+    raise exception.with_traceback(exception.__traceback__)
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/opentelemetry/instrumentation/requests/__init__.py", line 180, in instrumented_send
+    result = wrapped_send(self, request, **kwargs)  # *** PROCEED
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/david/weaviate-tests/fincoach-chatbot-server/v-fincoach-fastapi-llamaindex/lib/python3.10/site-packages/requests/adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='192.168.1.232', port=11435): Max retries exceeded with url: /api/generate/ (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fa1f025d420>: Failed to establish a new connection: [Errno 113] No route to host'))
+INFO:     167.94.138.127:40236 - "GET / HTTP/1.1" 404 Not Found
+INFO:     167.94.138.127:46944 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     167.94.145.53:32830 - "GET / HTTP/1.1" 404 Not Found
+INFO:     167.94.145.53:58760 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     162.216.150.148:62736 - "GET / HTTP/1.1" 404 Not Found
+INFO:     167.248.133.37:53044 - "GET / HTTP/1.1" 404 Not Found
+INFO:     167.248.133.37:51692 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     71.6.134.231:33652 - "GET / HTTP/1.1" 404 Not Found
+INFO:     167.94.138.33:40200 - "GET / HTTP/1.1" 404 Not Found
+INFO:     167.94.138.33:51116 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     192.155.90.220:11740 - "GET / HTTP/1.1" 404 Not Found
+INFO:     172.105.128.13:37182 - "GET / HTTP/1.1" 404 Not Found
+INFO:     167.99.93.212:59598 - "GET /aaa9 HTTP/1.1" 404 Not Found
+INFO:     167.99.93.212:41846 - "GET /aab8 HTTP/1.1" 404 Not Found
+INFO:     167.99.93.212:41872 - "GET / HTTP/1.1" 404 Not Found
+INFO:     185.233.19.137:44206 - "GET / HTTP/1.1" 404 Not Found
+INFO:     162.142.125.216:60090 - "GET / HTTP/1.1" 404 Not Found
+INFO:     162.142.125.216:33458 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     87.236.176.248:47053 - "GET / HTTP/1.1" 404 Not Found
+INFO:     45.33.80.243:28228 - "GET / HTTP/1.1" 404 Not Found
+INFO:     45.79.181.104:31548 - "GET / HTTP/1.1" 404 Not Found
+INFO:     167.94.146.55:60294 - "GET / HTTP/1.1" 404 Not Found
+INFO:     167.94.146.55:55802 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     87.236.176.140:50797 - "GET / HTTP/1.1" 404 Not Found
+INFO:     167.248.133.52:45414 - "GET / HTTP/1.1" 404 Not Found
+INFO:     167.248.133.52:52860 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     87.236.176.131:48621 - "GET / HTTP/1.1" 404 Not Found
+INFO:     79.152.196.43:63608 - "GET /chatbot/?input_prompt=fff HTTP/1.1" 307 Temporary Redirect
+the input prompt was:  fff
+>------------------------
+Im in inference
+<IPython.core.display.Markdown object>
+>------------------------
+<class 'llama_index.response.schema.Response'>
+>------------------------
+No, I do not believe that the statement is true.
+INFO:     79.152.196.43:63608 - "GET /chatbot?input_prompt=fff HTTP/1.1" 200 OK
+INFO:     167.94.145.57:33342 - "GET / HTTP/1.1" 404 Not Found
+INFO:     167.94.145.57:38840 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     162.216.149.235:57850 - "GET / HTTP/1.1" 404 Not Found
+INFO:     167.94.138.33:38320 - "GET / HTTP/1.1" 404 Not Found
+INFO:     167.94.138.33:59560 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     43.130.57.239:10666 - "GET / HTTP/1.1" 404 Not Found
+INFO:     111.7.100.35:35581 - "GET / HTTP/1.1" 404 Not Found
+INFO:     111.7.100.33:11898 - "GET / HTTP/1.1" 404 Not Found
+INFO:     36.99.136.128:24237 - "GET / HTTP/1.1" 404 Not Found
+INFO:     36.99.136.137:53278 - "GET / HTTP/1.1" 404 Not Found
+INFO:     154.127.54.49:22572 - "GET / HTTP/1.1" 404 Not Found
+INFO:     154.127.54.49:22586 - "GET / HTTP/1.1" 404 Not Found
+INFO:     36.99.136.128:34370 - "GET / HTTP/1.1" 404 Not Found
+INFO:     211.95.50.7:21996 - "GET / HTTP/1.1" 404 Not Found
+INFO:     211.95.50.7:22011 - "GET / HTTP/1.1" 404 Not Found
+INFO:     111.7.100.35:35855 - "GET / HTTP/1.1" 404 Not Found
+INFO:     34.107.34.152:45118 - "OPTIONS / HTTP/1.0" 404 Not Found
+INFO:     87.236.176.237:57125 - "GET / HTTP/1.1" 404 Not Found
+INFO:     167.94.138.33:44106 - "GET / HTTP/1.1" 404 Not Found
+INFO:     167.94.138.33:38938 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     87.236.176.53:41547 - "GET / HTTP/1.1" 404 Not Found
+INFO:     87.236.176.204:38423 - "GET / HTTP/1.1" 404 Not Found
+INFO:     87.236.176.4:34603 - "GET / HTTP/1.1" 404 Not Found
+INFO:     167.248.133.37:58758 - "GET / HTTP/1.1" 404 Not Found
+INFO:     167.248.133.37:47430 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     87.236.176.63:44837 - "GET / HTTP/1.1" 404 Not Found
+INFO:     87.236.176.51:56695 - "GET / HTTP/1.1" 404 Not Found
+INFO:     167.94.145.54:51164 - "GET / HTTP/1.1" 404 Not Found
+INFO:     167.94.145.54:40930 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     167.94.138.50:54446 - "GET / HTTP/1.1" 404 Not Found
+INFO:     167.94.138.50:49552 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     162.142.125.214:43896 - "GET / HTTP/1.1" 404 Not Found
+INFO:     162.142.125.214:49620 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     87.236.176.81:59561 - "GET / HTTP/1.1" 404 Not Found
+INFO:     167.94.146.52:39650 - "GET / HTTP/1.1" 404 Not Found
+INFO:     167.94.146.52:47446 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     87.236.176.216:35097 - "GET / HTTP/1.1" 404 Not Found
+INFO:     87.236.176.182:59131 - "GET / HTTP/1.1" 404 Not Found
+INFO:     87.236.176.39:33451 - "GET / HTTP/1.1" 404 Not Found
+INFO:     87.236.176.104:34247 - "GET / HTTP/1.1" 404 Not Found

@@ -45,7 +45,12 @@ from llama_index.response_synthesizers import (
     get_response_synthesizer,
     BaseSynthesizer,
 )
+
+from llama_index.vector_stores import ChromaVectorStore
+import chromadb
+
 import pprint
+
 from traceloop.sdk import Traceloop
 ##########################################################################
 ##############################LLAMA INDEX INITIALIZATION##################
@@ -60,9 +65,19 @@ service_context = ServiceContext.from_defaults(
 set_global_service_context(service_context)
 
 print ('before storage context')
+documentsAll = SimpleDirectoryReader("/mnt/nasmixprojects/books/nassimTaleb").load_data()
+#documentsAll = SimpleDirectoryReader("/mnt/nasmixprojects/books/",  recursive=True,).load_data()
+
+chroma_client = chromadb.EphemeralClient()
+chroma_collection = chroma_client.create_collection("finance_all_v1")
+vector_store = ChromaVectorStore(chroma_collection=chroma_collection)
+
+#storage_context = StorageContext.from_defaults(persist_dir="sentences_2023_12_02_index_all")
+storage_context = StorageContext.from_defaults(vector_store=vector_store)
+index_finance = VectorStoreIndex.from_documents( documentsAll, storage_context=storage_context, service_context=service_context )
+
 #storage_context = StorageContext.from_defaults(persist_dir="sentences_2023_11_20_18_1_57_index")
-storage_context = StorageContext.from_defaults(persist_dir="sentences_2023_12_02_index_all")
-index_finance = load_index_from_storage(storage_context)
+
 print ('after loading')
 
 ##########################################################################
@@ -112,12 +127,12 @@ def inference(input_prompt):
     return response
 ##########################################################################
 ##############################FAST APIN###################################
-#Contains traceloop and logging
+#Contains traceloop and logging and uses chromadb in RAM
 
-app_prd = FastAPI()
-app_prd.add_middleware(HTTPSRedirectMiddleware)
+app_prd_v2 = FastAPI()
+app_prd_v2.add_middleware(HTTPSRedirectMiddleware)
 
-app_prd.add_middleware(
+app_prd_v2.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
     allow_methods=["*"],
@@ -126,7 +141,7 @@ app_prd.add_middleware(
 
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.INFO)
-log_file = "output-rag.log"
+log_file = "output-rag-v2.log"
 file_handler = logging.FileHandler(log_file)
 formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
 file_handler.setFormatter(formatter)
@@ -135,7 +150,7 @@ logger.addHandler(file_handler)
 api_key = os.environ.get("TRACELOOP_API_KEY")
 Traceloop.init(disable_batch=True, api_key=api_key)
 
-@app_prd.get("/chatbot")
+@app_prd_v2.get("/chatbot")
 def call_chatbot(input_prompt: str):
     #response = llamaindex.chat(input_prompt)
 
